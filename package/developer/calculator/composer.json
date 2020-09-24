@@ -1,0 +1,25 @@
+{
+    "name": "developer/calculator",
+    "description": "this is use for some actions",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ankur thakrar",
+            "email": "ankurthakrar404@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "fideloper/proxy": "dev-master",
+        "barryvdh/laravel-cors": "0.8.x@dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Developer\\Calculator\\CalculatorServiceProvider"
+            ]
+        }
+    }
+   
+}
